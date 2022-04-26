@@ -15,6 +15,5 @@ public class Main {
         boolean isTrue = true;
 
         System.out.println(num);
-
     }
 }
