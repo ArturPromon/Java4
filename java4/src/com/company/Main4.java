@@ -13,7 +13,7 @@ public class Main4 {
                 System.out.println("Number is 10");
                 break;
             case 15:
-                System.out.println("Number is 150");
+                System.out.println("Number is 15");
                 break;
             default:
                 System.out.println("Some number");
