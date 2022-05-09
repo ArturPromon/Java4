@@ -14,24 +14,30 @@ public class Main5 {
         System.out.println("Please enter an operation(+, -, /, *)");
         sym = scn.next().charAt(0);
 
-        switch(sym){
-            case '+':
-                result = num1 + num2;
+        while(true){
+            if(sym != '*' && sym != '/' && sym!= '-' && sym!= '+'){
+                System.out.println("Please enter an operation(+, -, /, *)");
+                sym = scn.next().charAt(0);
+            }else{
+                switch(sym){
+                    case '+':
+                        result = num1 + num2;
+                        break;
+                    case '-':
+                        result = num1 - num2;
+                        break;
+                    case '/':
+                        result = num1 / num2;
+                        break;
+                    case '*':
+                        result = num1 * num2;
+                        break;
+                    default:
+                    return;
+                }
                 break;
-            case '-':
-                result = num1 - num2;
-                break;
-            case '/':
-                result = num1 / num2;
-                break;
-            case '*':
-                result = num1 * num2;
-                break;
-            default:
-                System.out.println("Error");
-            return;
+            }
         }
-
         System.out.println(result);
     }
 }
