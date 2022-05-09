@@ -33,7 +33,7 @@ public class Main5 {
                         result = num1 * num2;
                         break;
                     default:
-                    return;
+                        return;
                 }
                 break;
             }
