@@ -14,5 +14,17 @@ public class Main20 {
             System.out.print(result2 + "\n");
 
         }
+        System.out.println();
+
+        for(int i = 0; i <3; i++){
+            int result3 = matrixC[i][0] * matrixD[0][0] + matrixC[i][1] * matrixD[1][0] + matrixC[i][2] * matrixD[2][0];
+            int result4 = matrixC[i][0] * matrixD[0][1] + matrixC[i][1] * matrixD[1][1] + matrixC[i][2] * matrixD[2][1];
+            int result5 = matrixC[i][0] * matrixD[0][2] + matrixC[i][1] * matrixD[1][2] + matrixC[i][2] * matrixD[2][2];
+
+            System.out.print(result3 + "\t");
+            System.out.print(result4 + "\t");
+            System.out.print(result5 + "\n");
+
+        }
     }
 }
