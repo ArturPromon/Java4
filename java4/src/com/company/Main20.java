@@ -12,6 +12,7 @@ public class Main20 {
             int result2 = matrixA[i][0] * matrixB[0][1] + matrixA[i][1] * matrixB[1][1];
             System.out.print(result1 + " ");
             System.out.print(result2 + "\n");
+
         }
     }
 }
