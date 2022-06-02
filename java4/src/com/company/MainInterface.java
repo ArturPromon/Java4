@@ -10,6 +10,5 @@ public class MainInterface {
         car2.readCar();
         Read bike2 = new Myinterface();
         bike2.readBike();
-
     }
 }

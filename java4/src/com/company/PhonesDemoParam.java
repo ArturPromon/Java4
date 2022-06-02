@@ -30,4 +30,15 @@ public class PhonesDemoParam extends PhonesDemo2{
         System.out.println(this.model + this.number + this.price + system + core + memory);
     }
 
+    public void print(){
+        System.out.println("Hello!!!");
+    }
+
+
+    public void test(){
+        this.print();
+        super.print();
+    }
+
+
 }

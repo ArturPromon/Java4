@@ -19,4 +19,8 @@ public class PhonesDemo2 {
         this.model = model;
         this.number = number;
     }
+
+    public void print(){
+        System.out.println("Hello");
+    }
 }

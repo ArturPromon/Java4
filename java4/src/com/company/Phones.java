@@ -38,5 +38,12 @@ public class Phones {
         System.out.println(phone9.system + " " + phone9.core + " " + phone9.memory + " " + phone9.model + " " + phone9.number + " " + phone9.price);
         phone9.tellModel();
         phone10.tellphone10();
+
+        phone7.test();
     }
+
+    // vehicles (main function)
+    // Engine (power, fuel type, hybrid or not)
+    //Plane ()
+    //Track ()
 }
