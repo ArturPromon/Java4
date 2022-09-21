@@ -3,7 +3,7 @@
 ## Github
 *Commands:*</br>
 **dir/ls - To check where we are.. dir-Windows, ls-Mac**</br>
-**cd/cd.. - navigation**</br>
+**cd/cd.. - navigation or cd/cd - on Mac's**</br>
 **git clone https://github.com/ArturPromon/Frontend.git**</br>
 **git status - control of some changes in our directory/repository**</br>
 **git pull - get some files from our repository**</br>
